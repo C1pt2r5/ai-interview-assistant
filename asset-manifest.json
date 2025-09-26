@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-interview-assistant/static/css/main.d802e3cd.css",
+    "main.js": "/ai-interview-assistant/static/js/main.bf8bd0cb.js",
+    "index.html": "/ai-interview-assistant/index.html",
+    "main.d802e3cd.css.map": "/ai-interview-assistant/static/css/main.d802e3cd.css.map",
+    "main.bf8bd0cb.js.map": "/ai-interview-assistant/static/js/main.bf8bd0cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d802e3cd.css",
+    "static/js/main.bf8bd0cb.js"
+  ]
+}
