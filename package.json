@@ -2,7 +2,7 @@
   "name": "ai-interview-assistant",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/ai-interview-assistant",
+  "homepage": "https://C1pt2r5.github.io/ai-interview-assistant",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "antd": "^5.12.8",

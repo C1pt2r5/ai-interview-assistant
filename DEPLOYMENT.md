@@ -1,6 +1,40 @@
 # Deployment Guide
 
-## GitHub Pages Deployment
+## Render Deployment (Recommended)
+
+### Prerequisites
+1. Create a GitHub repository for your project
+2. Create a Render account at https://render.com
+
+### Steps to Deploy
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Deploy to Render"
+   git push origin main
+   ```
+
+2. **Deploy on Render**
+   - Go to https://render.com and sign in
+   - Click "New" → "Static Site"
+   - Connect your GitHub repository
+   - Use these settings:
+     - **Build Command**: `npm install && npm run build`
+     - **Publish Directory**: `build`
+   - Click "Create Static Site"
+
+3. **Access Your App**
+   - Your app will be available at: `https://your-app-name.onrender.com`
+   - Render provides automatic HTTPS and custom domains
+
+### Benefits of Render
+- Automatic deployments on git push
+- Free tier available
+- Custom domains and HTTPS
+- Better performance than GitHub Pages
+
+## GitHub Pages Deployment (Alternative)
 
 ### Prerequisites
 1. Create a GitHub repository for your project
