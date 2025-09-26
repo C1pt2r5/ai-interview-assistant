@@ -44,7 +44,7 @@
 
 ### Accessing Your App
 After successful deployment, your app will be available at:
-`https://yourusername.github.io/ai-interview-assistant`
+`https://C1pt2r5.github.io/ai-interview-assistant`
 
 ### Troubleshooting
 - Ensure GitHub Pages is enabled in repository settings
